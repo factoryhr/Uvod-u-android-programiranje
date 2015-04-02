@@ -59,7 +59,6 @@ public class Http {
             e.printStackTrace();
         }
 
-        Log.d("CUCA", "Vracam se cuca");
         return "";
     }
 
