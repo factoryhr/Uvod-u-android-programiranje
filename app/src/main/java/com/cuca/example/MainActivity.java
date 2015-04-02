@@ -46,7 +46,7 @@ public class MainActivity extends Activity {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                String response = Http.getInstance().post("http://adoro.devtvornica.org/android/instagram.json");
+                String response = Http.getInstance().post("http://android.devtvornica.org/instagram.json");
                 imageItems = new ArrayList<ImageItem>();
 
                 try {
